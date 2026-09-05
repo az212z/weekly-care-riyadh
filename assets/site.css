@@ -3,3 +3,6 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}@media print{.top,.footer,.mobile-dock,.filters,.actions,.preview-label,button{display:none!important}body{background:white!important;color:black!important}.wrap{width:100%}.chapter{padding-block:20px}.hero-visual .main-image{height:300px}.service-row{break-inside:avoid}}
 
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* Clean text-led controls */
+.btn>span:empty,.textlink>span:empty,.button>.arrow:empty{display:none}.button{justify-content:center;padding-inline:22px}.ticker span::before{content:none}
